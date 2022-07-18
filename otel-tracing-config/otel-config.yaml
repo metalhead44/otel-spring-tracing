@@ -1,0 +1,40 @@
+receivers:
+  otlp:
+    protocols:
+      grpc:
+      http:
+
+
+exporters:
+  jaeger:
+    endpoint: jaeger:14250
+    tls:
+      insecure: true
+  logging:
+  zipkin:
+    endpoint: "http://localhost:9411/api/v2/spans"
+    tls:
+      insecure: true
+      
+processors:
+    filter/spans:
+        spans:
+            # if both include and exclude are specified, include filters are applied first
+            # the following configuration would only allow logs with resource attributes
+            # "should_include" to pass through
+            exclude:
+                match_type: regexp
+                attributes:
+                    - key: code.function
+                      value: "fixedRateSch"
+                    - key: http.route
+                      value: "(http://localhost:9000/health|http://localhost:90001/health)"
+service:
+  pipelines:
+    traces:
+      receivers: [otlp]
+      exporters: [zipkin]
+      processors: [filter/spans]
+  telemetry:
+    logs:
+      level: "debug"      
