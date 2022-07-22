@@ -1,0 +1,41 @@
+receivers:
+  otlp:
+    protocols:
+      grpc:
+      http:
+
+exporters:
+  zipkin:
+    endpoint: "http://localhost:9411/api/v2/spans"
+    tls:
+      insecure: true
+
+
+processors:
+  #groupbytrace:
+  groupbytrace/custom:
+    wait_duration: 2s
+    num_traces: 1000
+  tail_sampling:
+    decision_wait: 10s
+    #num_traces: 100
+    #expected_new_traces_per_sec: 10
+    policies:
+      [
+          
+          {
+            name: stop-health-checks,
+            type: string_attribute,
+            string_attribute: {key: http.target, values: [\/health],enabled_regex_matching: true, invert_match: true}
+          }
+      ]
+
+service:
+  pipelines:
+    traces:
+      receivers: [otlp]
+      processors: [groupbytrace/custom ,tail_sampling]
+      exporters: [zipkin]
+  telemetry:
+    logs:
+      level: "debug"      
