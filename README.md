@@ -1,4 +1,9 @@
 # otel-spring-tracing
+
+A better guide is available on my medium articles - 
+1) https://nitin-rohidas.medium.com/introduction-to-opentelemetry-distributed-tracing-part-i-d1dc57d71a96
+2) https://nitin-rohidas.medium.com/introduction-to-opentelemetry-distributed-tracing-part-ii-7ddab4a4cf15
+3) https://nitin-rohidas.medium.com/introduction-to-opentelemetry-distributed-tracing-part-iii-9b1bce59c1bd
  
 Run with following VM arguments
 
