@@ -1,0 +1,825 @@
+{
+	"resourceSpans": [
+		{
+			"resource": {
+				"attributes": [
+					{
+						"key": "host.arch",
+						"value": {
+							"stringValue": "amd64"
+						}
+					},
+					{
+						"key": "host.name",
+						"value": {
+							"stringValue": "DESKTOP-9OJQPJ2"
+						}
+					},
+					{
+						"key": "os.description",
+						"value": {
+							"stringValue": "Windows 10 10.0"
+						}
+					},
+					{
+						"key": "os.type",
+						"value": {
+							"stringValue": "windows"
+						}
+					},
+					{
+						"key": "process.command_line",
+						"value": {
+							"stringValue": "D:\\Installations\\java\\jdk17.0.2;bin;java.exe -javaagent:D:\\Installations\\opentelemetry-javaagent.jar -Dotel.exporter.otlp.protocol=http/protobuf -Dotel.exporter.otlp.traces.protocol=http/protobuf -Dotel.resource.attributes=service.name=student-service -Dotel.metrics.exporter=none -Dfile.encoding=UTF-8 -XX:+ShowCodeDetailsInExceptionMessages"
+						}
+					},
+					{
+						"key": "process.executable.path",
+						"value": {
+							"stringValue": "D:\\Installations\\java\\jdk17.0.2;bin;java.exe"
+						}
+					},
+					{
+						"key": "process.pid",
+						"value": {
+							"intValue": "18324"
+						}
+					},
+					{
+						"key": "process.runtime.description",
+						"value": {
+							"stringValue": "Oracle Corporation Java HotSpot(TM) 64-Bit Server VM 17.0.2+8-LTS-86"
+						}
+					},
+					{
+						"key": "process.runtime.name",
+						"value": {
+							"stringValue": "Java(TM) SE Runtime Environment"
+						}
+					},
+					{
+						"key": "process.runtime.version",
+						"value": {
+							"stringValue": "17.0.2+8-LTS-86"
+						}
+					},
+					{
+						"key": "service.name",
+						"value": {
+							"stringValue": "student-service"
+						}
+					},
+					{
+						"key": "telemetry.auto.version",
+						"value": {
+							"stringValue": "1.15.0"
+						}
+					},
+					{
+						"key": "telemetry.sdk.language",
+						"value": {
+							"stringValue": "java"
+						}
+					},
+					{
+						"key": "telemetry.sdk.name",
+						"value": {
+							"stringValue": "opentelemetry"
+						}
+					},
+					{
+						"key": "telemetry.sdk.version",
+						"value": {
+							"stringValue": "1.15.0"
+						}
+					}
+				]
+			},
+			"scopeSpans": [
+				{
+					"scope": {},
+					"spans": [
+						{
+							"traceId": "77b6456bb270c91b42d35f3d4bc4cf59",
+							"spanId": "6421c86123f76d5e",
+							"parentSpanId": "27a1dc7e26c6e88d",
+							"name": "StudentServiceController.getStudents",
+							"kind": "SPAN_KIND_INTERNAL",
+							"startTimeUnixNano": "1659031620899614600",
+							"endTimeUnixNano": "1659031620980042900",
+							"attributes": [
+								{
+									"key": "thread.name",
+									"value": {
+										"stringValue": "http-nio-9000-exec-3"
+									}
+								},
+								{
+									"key": "thread.id",
+									"value": {
+										"intValue": "25"
+									}
+								}
+							],
+							"status": {}
+						}
+					]
+				}
+			]
+		},
+		{
+			"resource": {
+				"attributes": [
+					{
+						"key": "host.arch",
+						"value": {
+							"stringValue": "amd64"
+						}
+					},
+					{
+						"key": "host.name",
+						"value": {
+							"stringValue": "DESKTOP-9OJQPJ2"
+						}
+					},
+					{
+						"key": "os.description",
+						"value": {
+							"stringValue": "Windows 10 10.0"
+						}
+					},
+					{
+						"key": "os.type",
+						"value": {
+							"stringValue": "windows"
+						}
+					},
+					{
+						"key": "process.command_line",
+						"value": {
+							"stringValue": "D:\\Installations\\java\\jdk17.0.2;bin;java.exe -javaagent:D:\\Installations\\opentelemetry-javaagent.jar -Dotel.exporter.otlp.protocol=http/protobuf -Dotel.exporter.otlp.traces.protocol=http/protobuf -Dotel.resource.attributes=service.name=student-service -Dotel.metrics.exporter=none -Dfile.encoding=UTF-8 -XX:+ShowCodeDetailsInExceptionMessages"
+						}
+					},
+					{
+						"key": "process.executable.path",
+						"value": {
+							"stringValue": "D:\\Installations\\java\\jdk17.0.2;bin;java.exe"
+						}
+					},
+					{
+						"key": "process.pid",
+						"value": {
+							"intValue": "18324"
+						}
+					},
+					{
+						"key": "process.runtime.description",
+						"value": {
+							"stringValue": "Oracle Corporation Java HotSpot(TM) 64-Bit Server VM 17.0.2+8-LTS-86"
+						}
+					},
+					{
+						"key": "process.runtime.name",
+						"value": {
+							"stringValue": "Java(TM) SE Runtime Environment"
+						}
+					},
+					{
+						"key": "process.runtime.version",
+						"value": {
+							"stringValue": "17.0.2+8-LTS-86"
+						}
+					},
+					{
+						"key": "service.name",
+						"value": {
+							"stringValue": "student-service"
+						}
+					},
+					{
+						"key": "telemetry.auto.version",
+						"value": {
+							"stringValue": "1.15.0"
+						}
+					},
+					{
+						"key": "telemetry.sdk.language",
+						"value": {
+							"stringValue": "java"
+						}
+					},
+					{
+						"key": "telemetry.sdk.name",
+						"value": {
+							"stringValue": "opentelemetry"
+						}
+					},
+					{
+						"key": "telemetry.sdk.version",
+						"value": {
+							"stringValue": "1.15.0"
+						}
+					}
+				]
+			},
+			"scopeSpans": [
+				{
+					"scope": {},
+					"spans": [
+						{
+							"traceId": "77b6456bb270c91b42d35f3d4bc4cf59",
+							"spanId": "27a1dc7e26c6e88d",
+							"parentSpanId": "cb49f472082efc22",
+							"name": "/student-school-details/{schoolname}",
+							"kind": "SPAN_KIND_SERVER",
+							"startTimeUnixNano": "1659031620898352800",
+							"endTimeUnixNano": "1659031620980541200",
+							"attributes": [
+								{
+									"key": "net.peer.port",
+									"value": {
+										"intValue": "57185"
+									}
+								},
+								{
+									"key": "http.scheme",
+									"value": {
+										"stringValue": "http"
+									}
+								},
+								{
+									"key": "http.method",
+									"value": {
+										"stringValue": "GET"
+									}
+								},
+								{
+									"key": "http.route",
+									"value": {
+										"stringValue": "/student-school-details/{schoolname}"
+									}
+								},
+								{
+									"key": "http.user_agent",
+									"value": {
+										"stringValue": "Java/17.0.2"
+									}
+								},
+								{
+									"key": "http.host",
+									"value": {
+										"stringValue": "localhost:9000"
+									}
+								},
+								{
+									"key": "http.status_code",
+									"value": {
+										"intValue": "200"
+									}
+								},
+								{
+									"key": "net.peer.ip",
+									"value": {
+										"stringValue": "127.0.0.1"
+									}
+								},
+								{
+									"key": "thread.name",
+									"value": {
+										"stringValue": "http-nio-9000-exec-3"
+									}
+								},
+								{
+									"key": "thread.id",
+									"value": {
+										"intValue": "25"
+									}
+								},
+								{
+									"key": "net.transport",
+									"value": {
+										"stringValue": "ip_tcp"
+									}
+								},
+								{
+									"key": "http.flavor",
+									"value": {
+										"stringValue": "1.1"
+									}
+								},
+								{
+									"key": "http.target",
+									"value": {
+										"stringValue": "/student-school-details/abcschool"
+									}
+								}
+							],
+							"status": {}
+						}
+					]
+				}
+			]
+		},
+		{
+			"resource": {
+				"attributes": [
+					{
+						"key": "host.arch",
+						"value": {
+							"stringValue": "amd64"
+						}
+					},
+					{
+						"key": "host.name",
+						"value": {
+							"stringValue": "DESKTOP-9OJQPJ2"
+						}
+					},
+					{
+						"key": "os.description",
+						"value": {
+							"stringValue": "Windows 10 10.0"
+						}
+					},
+					{
+						"key": "os.type",
+						"value": {
+							"stringValue": "windows"
+						}
+					},
+					{
+						"key": "process.command_line",
+						"value": {
+							"stringValue": "D:\\Installations\\java\\jdk17.0.2;bin;java.exe -javaagent:D:\\Installations\\opentelemetry-javaagent.jar -Dotel.exporter.otlp.protocol=http/protobuf -Dotel.exporter.otlp.traces.protocol=http/protobuf -Dotel.resource.attributes=service.name=school-service -Dotel.metrics.exporter=none -Dfile.encoding=UTF-8 -XX:+ShowCodeDetailsInExceptionMessages"
+						}
+					},
+					{
+						"key": "process.executable.path",
+						"value": {
+							"stringValue": "D:\\Installations\\java\\jdk17.0.2;bin;java.exe"
+						}
+					},
+					{
+						"key": "process.pid",
+						"value": {
+							"intValue": "23716"
+						}
+					},
+					{
+						"key": "process.runtime.description",
+						"value": {
+							"stringValue": "Oracle Corporation Java HotSpot(TM) 64-Bit Server VM 17.0.2+8-LTS-86"
+						}
+					},
+					{
+						"key": "process.runtime.name",
+						"value": {
+							"stringValue": "Java(TM) SE Runtime Environment"
+						}
+					},
+					{
+						"key": "process.runtime.version",
+						"value": {
+							"stringValue": "17.0.2+8-LTS-86"
+						}
+					},
+					{
+						"key": "service.name",
+						"value": {
+							"stringValue": "school-service"
+						}
+					},
+					{
+						"key": "telemetry.auto.version",
+						"value": {
+							"stringValue": "1.15.0"
+						}
+					},
+					{
+						"key": "telemetry.sdk.language",
+						"value": {
+							"stringValue": "java"
+						}
+					},
+					{
+						"key": "telemetry.sdk.name",
+						"value": {
+							"stringValue": "opentelemetry"
+						}
+					},
+					{
+						"key": "telemetry.sdk.version",
+						"value": {
+							"stringValue": "1.15.0"
+						}
+					}
+				]
+			},
+			"scopeSpans": [
+				{
+					"scope": {},
+					"spans": [
+						{
+							"traceId": "77b6456bb270c91b42d35f3d4bc4cf59",
+							"spanId": "c56dcfb799264bfd",
+							"parentSpanId": "cf05cef4445e7ba5",
+							"name": "SchoolServiceController.getStudents",
+							"kind": "SPAN_KIND_INTERNAL",
+							"startTimeUnixNano": "1659031620893619300",
+							"endTimeUnixNano": "1659031621850854900",
+							"attributes": [
+								{
+									"key": "SchoolName",
+									"value": {
+										"stringValue": "abcschool"
+									}
+								},
+								{
+									"key": "thread.name",
+									"value": {
+										"stringValue": "http-nio-9001-exec-8"
+									}
+								},
+								{
+									"key": "thread.id",
+									"value": {
+										"intValue": "30"
+									}
+								}
+							],
+							"status": {}
+						}
+					]
+				}
+			]
+		},
+		{
+			"resource": {
+				"attributes": [
+					{
+						"key": "host.arch",
+						"value": {
+							"stringValue": "amd64"
+						}
+					},
+					{
+						"key": "host.name",
+						"value": {
+							"stringValue": "DESKTOP-9OJQPJ2"
+						}
+					},
+					{
+						"key": "os.description",
+						"value": {
+							"stringValue": "Windows 10 10.0"
+						}
+					},
+					{
+						"key": "os.type",
+						"value": {
+							"stringValue": "windows"
+						}
+					},
+					{
+						"key": "process.command_line",
+						"value": {
+							"stringValue": "D:\\Installations\\java\\jdk17.0.2;bin;java.exe -javaagent:D:\\Installations\\opentelemetry-javaagent.jar -Dotel.exporter.otlp.protocol=http/protobuf -Dotel.exporter.otlp.traces.protocol=http/protobuf -Dotel.resource.attributes=service.name=school-service -Dotel.metrics.exporter=none -Dfile.encoding=UTF-8 -XX:+ShowCodeDetailsInExceptionMessages"
+						}
+					},
+					{
+						"key": "process.executable.path",
+						"value": {
+							"stringValue": "D:\\Installations\\java\\jdk17.0.2;bin;java.exe"
+						}
+					},
+					{
+						"key": "process.pid",
+						"value": {
+							"intValue": "23716"
+						}
+					},
+					{
+						"key": "process.runtime.description",
+						"value": {
+							"stringValue": "Oracle Corporation Java HotSpot(TM) 64-Bit Server VM 17.0.2+8-LTS-86"
+						}
+					},
+					{
+						"key": "process.runtime.name",
+						"value": {
+							"stringValue": "Java(TM) SE Runtime Environment"
+						}
+					},
+					{
+						"key": "process.runtime.version",
+						"value": {
+							"stringValue": "17.0.2+8-LTS-86"
+						}
+					},
+					{
+						"key": "service.name",
+						"value": {
+							"stringValue": "school-service"
+						}
+					},
+					{
+						"key": "telemetry.auto.version",
+						"value": {
+							"stringValue": "1.15.0"
+						}
+					},
+					{
+						"key": "telemetry.sdk.language",
+						"value": {
+							"stringValue": "java"
+						}
+					},
+					{
+						"key": "telemetry.sdk.name",
+						"value": {
+							"stringValue": "opentelemetry"
+						}
+					},
+					{
+						"key": "telemetry.sdk.version",
+						"value": {
+							"stringValue": "1.15.0"
+						}
+					}
+				]
+			},
+			"scopeSpans": [
+				{
+					"scope": {},
+					"spans": [
+						{
+							"traceId": "77b6456bb270c91b42d35f3d4bc4cf59",
+							"spanId": "cf05cef4445e7ba5",
+							"parentSpanId": "",
+							"name": "/school-details/{schoolname}",
+							"kind": "SPAN_KIND_SERVER",
+							"startTimeUnixNano": "1659031620892350600",
+							"endTimeUnixNano": "1659031621851398900",
+							"attributes": [
+								{
+									"key": "net.peer.port",
+									"value": {
+										"intValue": "57184"
+									}
+								},
+								{
+									"key": "http.scheme",
+									"value": {
+										"stringValue": "http"
+									}
+								},
+								{
+									"key": "http.method",
+									"value": {
+										"stringValue": "GET"
+									}
+								},
+								{
+									"key": "http.route",
+									"value": {
+										"stringValue": "/school-details/{schoolname}"
+									}
+								},
+								{
+									"key": "http.user_agent",
+									"value": {
+										"stringValue": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+									}
+								},
+								{
+									"key": "http.response_content_length",
+									"value": {
+										"intValue": "124"
+									}
+								},
+								{
+									"key": "http.host",
+									"value": {
+										"stringValue": "localhost:9001"
+									}
+								},
+								{
+									"key": "http.status_code",
+									"value": {
+										"intValue": "200"
+									}
+								},
+								{
+									"key": "net.peer.ip",
+									"value": {
+										"stringValue": "0:0:0:0:0:0:0:1"
+									}
+								},
+								{
+									"key": "thread.name",
+									"value": {
+										"stringValue": "http-nio-9001-exec-8"
+									}
+								},
+								{
+									"key": "thread.id",
+									"value": {
+										"intValue": "30"
+									}
+								},
+								{
+									"key": "net.transport",
+									"value": {
+										"stringValue": "ip_tcp"
+									}
+								},
+								{
+									"key": "http.flavor",
+									"value": {
+										"stringValue": "1.1"
+									}
+								},
+								{
+									"key": "http.target",
+									"value": {
+										"stringValue": "/school-details/abcschool"
+									}
+								}
+							],
+							"status": {}
+						}
+					]
+				}
+			]
+		},
+		{
+			"resource": {
+				"attributes": [
+					{
+						"key": "host.arch",
+						"value": {
+							"stringValue": "amd64"
+						}
+					},
+					{
+						"key": "host.name",
+						"value": {
+							"stringValue": "DESKTOP-9OJQPJ2"
+						}
+					},
+					{
+						"key": "os.description",
+						"value": {
+							"stringValue": "Windows 10 10.0"
+						}
+					},
+					{
+						"key": "os.type",
+						"value": {
+							"stringValue": "windows"
+						}
+					},
+					{
+						"key": "process.command_line",
+						"value": {
+							"stringValue": "D:\\Installations\\java\\jdk17.0.2;bin;java.exe -javaagent:D:\\Installations\\opentelemetry-javaagent.jar -Dotel.exporter.otlp.protocol=http/protobuf -Dotel.exporter.otlp.traces.protocol=http/protobuf -Dotel.resource.attributes=service.name=school-service -Dotel.metrics.exporter=none -Dfile.encoding=UTF-8 -XX:+ShowCodeDetailsInExceptionMessages"
+						}
+					},
+					{
+						"key": "process.executable.path",
+						"value": {
+							"stringValue": "D:\\Installations\\java\\jdk17.0.2;bin;java.exe"
+						}
+					},
+					{
+						"key": "process.pid",
+						"value": {
+							"intValue": "23716"
+						}
+					},
+					{
+						"key": "process.runtime.description",
+						"value": {
+							"stringValue": "Oracle Corporation Java HotSpot(TM) 64-Bit Server VM 17.0.2+8-LTS-86"
+						}
+					},
+					{
+						"key": "process.runtime.name",
+						"value": {
+							"stringValue": "Java(TM) SE Runtime Environment"
+						}
+					},
+					{
+						"key": "process.runtime.version",
+						"value": {
+							"stringValue": "17.0.2+8-LTS-86"
+						}
+					},
+					{
+						"key": "service.name",
+						"value": {
+							"stringValue": "school-service"
+						}
+					},
+					{
+						"key": "telemetry.auto.version",
+						"value": {
+							"stringValue": "1.15.0"
+						}
+					},
+					{
+						"key": "telemetry.sdk.language",
+						"value": {
+							"stringValue": "java"
+						}
+					},
+					{
+						"key": "telemetry.sdk.name",
+						"value": {
+							"stringValue": "opentelemetry"
+						}
+					},
+					{
+						"key": "telemetry.sdk.version",
+						"value": {
+							"stringValue": "1.15.0"
+						}
+					}
+				]
+			},
+			"scopeSpans": [
+				{
+					"scope": {},
+					"spans": [
+						{
+							"traceId": "77b6456bb270c91b42d35f3d4bc4cf59",
+							"spanId": "cb49f472082efc22",
+							"parentSpanId": "c56dcfb799264bfd",
+							"name": "HTTP GET",
+							"kind": "SPAN_KIND_CLIENT",
+							"startTimeUnixNano": "1659031620895008500",
+							"endTimeUnixNano": "1659031621845744000",
+							"attributes": [
+								{
+									"key": "http.url",
+									"value": {
+										"stringValue": "http://localhost:9000/student-school-details/abcschool"
+									}
+								},
+								{
+									"key": "net.peer.port",
+									"value": {
+										"intValue": "9000"
+									}
+								},
+								{
+									"key": "http.method",
+									"value": {
+										"stringValue": "GET"
+									}
+								},
+								{
+									"key": "http.status_code",
+									"value": {
+										"intValue": "200"
+									}
+								},
+								{
+									"key": "thread.name",
+									"value": {
+										"stringValue": "http-nio-9001-exec-8"
+									}
+								},
+								{
+									"key": "thread.id",
+									"value": {
+										"intValue": "30"
+									}
+								},
+								{
+									"key": "net.transport",
+									"value": {
+										"stringValue": "ip_tcp"
+									}
+								},
+								{
+									"key": "net.peer.name",
+									"value": {
+										"stringValue": "localhost"
+									}
+								},
+								{
+									"key": "http.flavor",
+									"value": {
+										"stringValue": "1.1"
+									}
+								}
+							],
+							"status": {}
+						}
+					]
+				}
+			]
+		}
+	]
+}

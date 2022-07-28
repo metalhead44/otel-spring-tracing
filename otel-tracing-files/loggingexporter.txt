@@ -1,0 +1,227 @@
+ResourceSpans #0
+Resource SchemaURL:
+Resource labels:
+     -> host.arch: STRING(amd64)
+     -> host.name: STRING(DESKTOP-9OJQPJ2)
+     -> os.description: STRING(Windows 10 10.0)
+     -> os.type: STRING(windows)
+     -> process.command_line: STRING(D:\Installations\java\jdk17.0.2;bin;java.exe -javaagent:D:\Installations\opentelemetry-javaagent.jar -Dotel.resource.attributes=service.name=school-service -Dotel.metrics.exporter=none -Dfile.encoding=UTF-8 -XX:+ShowCodeDetailsInExceptionMessages)
+     -> process.executable.path: STRING(D:\Installations\java\jdk17.0.2;bin;java.exe)
+     -> process.pid: INT(11224)
+     -> process.runtime.description: STRING(Oracle Corporation Java HotSpot(TM) 64-Bit Server VM 17.0.2+8-LTS-86)
+     -> process.runtime.name: STRING(Java(TM) SE Runtime Environment)
+     -> process.runtime.version: STRING(17.0.2+8-LTS-86)
+     -> service.name: STRING(school-service)
+     -> telemetry.auto.version: STRING(1.15.0)
+     -> telemetry.sdk.language: STRING(java)
+     -> telemetry.sdk.name: STRING(opentelemetry)
+     -> telemetry.sdk.version: STRING(1.15.0)
+ScopeSpans #0
+ScopeSpans SchemaURL:
+InstrumentationScope
+Span #0
+    Trace ID       : b5c702f5ad2d2424fb58ce3745fda5ff
+    Parent ID      : 404e41d4dff84d8a
+    ID             : 69c5c2cefe254cb2
+    Name           : SchoolServiceController.getStudents
+    Kind           : SPAN_KIND_INTERNAL
+    Start time     : 2022-07-28 16:48:38.3211649 +0000 UTC
+    End time       : 2022-07-28 16:48:39.5849932 +0000 UTC
+    Status code    : STATUS_CODE_UNSET
+    Status message :
+Attributes:
+     -> SchoolName: STRING(abcschool)
+     -> thread.name: STRING(http-nio-9001-exec-10)
+     -> thread.id: INT(32)
+ResourceSpans #1
+Resource SchemaURL:
+Resource labels:
+     -> host.arch: STRING(amd64)
+     -> host.name: STRING(DESKTOP-9OJQPJ2)
+     -> os.description: STRING(Windows 10 10.0)
+     -> os.type: STRING(windows)
+     -> process.command_line: STRING(D:\Installations\java\jdk17.0.2;bin;java.exe -javaagent:D:\Installations\opentelemetry-javaagent.jar -Dotel.resource.attributes=service.name=school-service -Dotel.metrics.exporter=none -Dfile.encoding=UTF-8 -XX:+ShowCodeDetailsInExceptionMessages)
+     -> process.executable.path: STRING(D:\Installations\java\jdk17.0.2;bin;java.exe)
+     -> process.pid: INT(11224)
+     -> process.runtime.description: STRING(Oracle Corporation Java HotSpot(TM) 64-Bit Server VM 17.0.2+8-LTS-86)
+     -> process.runtime.name: STRING(Java(TM) SE Runtime Environment)
+     -> process.runtime.version: STRING(17.0.2+8-LTS-86)
+     -> service.name: STRING(school-service)
+     -> telemetry.auto.version: STRING(1.15.0)
+     -> telemetry.sdk.language: STRING(java)
+     -> telemetry.sdk.name: STRING(opentelemetry)
+     -> telemetry.sdk.version: STRING(1.15.0)
+ScopeSpans #0
+ScopeSpans SchemaURL:
+InstrumentationScope
+Span #0
+    Trace ID       : b5c702f5ad2d2424fb58ce3745fda5ff
+    Parent ID      :
+    ID             : 404e41d4dff84d8a
+    Name           : /school-details/{schoolname}
+    Kind           : SPAN_KIND_SERVER
+    Start time     : 2022-07-28 16:48:38.1689841 +0000 UTC
+    End time       : 2022-07-28 16:48:39.585250099 +0000 UTC
+    Status code    : STATUS_CODE_UNSET
+    Status message :
+Attributes:
+     -> net.peer.port: INT(63907)
+     -> http.scheme: STRING(http)
+     -> http.method: STRING(GET)
+     -> http.route: STRING(/school-details/{schoolname})
+     -> http.user_agent: STRING(Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36)
+     -> http.response_content_length: INT(124)
+     -> http.host: STRING(localhost:9001)
+     -> http.status_code: INT(200)
+     -> net.peer.ip: STRING(0:0:0:0:0:0:0:1)
+     -> thread.name: STRING(http-nio-9001-exec-10)
+     -> thread.id: INT(32)
+     -> net.transport: STRING(ip_tcp)
+     -> http.flavor: STRING(1.1)
+     -> http.target: STRING(/school-details/abcschool)
+ResourceSpans #2
+Resource SchemaURL:
+Resource labels:
+     -> host.arch: STRING(amd64)
+     -> host.name: STRING(DESKTOP-9OJQPJ2)
+     -> os.description: STRING(Windows 10 10.0)
+     -> os.type: STRING(windows)
+     -> process.command_line: STRING(D:\Installations\java\jdk17.0.2;bin;java.exe -javaagent:D:\Installations\opentelemetry-javaagent.jar -Dotel.resource.attributes=service.name=school-service -Dotel.metrics.exporter=none -Dfile.encoding=UTF-8 -XX:+ShowCodeDetailsInExceptionMessages)
+     -> process.executable.path: STRING(D:\Installations\java\jdk17.0.2;bin;java.exe)
+     -> process.pid: INT(11224)
+     -> process.runtime.description: STRING(Oracle Corporation Java HotSpot(TM) 64-Bit Server VM 17.0.2+8-LTS-86)
+     -> process.runtime.name: STRING(Java(TM) SE Runtime Environment)
+     -> process.runtime.version: STRING(17.0.2+8-LTS-86)
+     -> service.name: STRING(school-service)
+     -> telemetry.auto.version: STRING(1.15.0)
+     -> telemetry.sdk.language: STRING(java)
+     -> telemetry.sdk.name: STRING(opentelemetry)
+     -> telemetry.sdk.version: STRING(1.15.0)
+ScopeSpans #0
+ScopeSpans SchemaURL:
+InstrumentationScope
+Span #0
+    Trace ID       : b5c702f5ad2d2424fb58ce3745fda5ff
+    Parent ID      : 69c5c2cefe254cb2
+    ID             : 8b14130ad07e7926
+    Name           : HTTP GET
+    Kind           : SPAN_KIND_CLIENT
+    Start time     : 2022-07-28 16:48:38.8195711 +0000 UTC
+    End time       : 2022-07-28 16:48:39.5479886 +0000 UTC
+    Status code    : STATUS_CODE_UNSET
+    Status message :
+Attributes:
+     -> http.url: STRING(http://localhost:9000/student-school-details/abcschool)
+     -> net.peer.port: INT(9000)
+     -> http.method: STRING(GET)
+     -> http.status_code: INT(200)
+     -> thread.name: STRING(http-nio-9001-exec-10)
+     -> thread.id: INT(32)
+     -> net.transport: STRING(ip_tcp)
+     -> net.peer.name: STRING(localhost)
+     -> http.flavor: STRING(1.1)
+ResourceSpans #3
+Resource SchemaURL:
+Resource labels:
+     -> host.arch: STRING(amd64)
+     -> host.name: STRING(DESKTOP-9OJQPJ2)
+     -> os.description: STRING(Windows 10 10.0)
+     -> os.type: STRING(windows)
+     -> process.command_line: STRING(D:\Installations\java\jdk17.0.2;bin;java.exe -javaagent:D:\Installations\opentelemetry-javaagent.jar -Dotel.resource.attributes=service.name=student-service -Dotel.metrics.exporter=none -Dfile.encoding=UTF-8 -XX:+ShowCodeDetailsInExceptionMessages)
+     -> process.executable.path: STRING(D:\Installations\java\jdk17.0.2;bin;java.exe)
+     -> process.pid: INT(16948)
+     -> process.runtime.description: STRING(Oracle Corporation Java HotSpot(TM) 64-Bit Server VM 17.0.2+8-LTS-86)
+     -> process.runtime.name: STRING(Java(TM) SE Runtime Environment)
+     -> process.runtime.version: STRING(17.0.2+8-LTS-86)
+     -> service.name: STRING(student-service)
+     -> telemetry.auto.version: STRING(1.15.0)
+     -> telemetry.sdk.language: STRING(java)
+     -> telemetry.sdk.name: STRING(opentelemetry)
+     -> telemetry.sdk.version: STRING(1.15.0)
+ScopeSpans #0
+ScopeSpans SchemaURL:
+InstrumentationScope
+Span #0
+    Trace ID       : b5c702f5ad2d2424fb58ce3745fda5ff
+    Parent ID      : 0b6d15a75340fbe0
+    ID             : a7b061384c51d357
+    Name           : StudentServiceController.getStudents
+    Kind           : SPAN_KIND_INTERNAL
+    Start time     : 2022-07-28 16:48:38.839216101 +0000 UTC
+    End time       : 2022-07-28 16:48:39.547080801 +0000 UTC
+    Status code    : STATUS_CODE_UNSET
+    Status message :
+Attributes:
+     -> thread.name: STRING(http-nio-9000-exec-9)
+     -> thread.id: INT(31)
+ResourceSpans #4
+Resource SchemaURL:
+Resource labels:
+     -> host.arch: STRING(amd64)
+     -> host.name: STRING(DESKTOP-9OJQPJ2)
+     -> os.description: STRING(Windows 10 10.0)
+     -> os.type: STRING(windows)
+     -> process.command_line: STRING(D:\Installations\java\jdk17.0.2;bin;java.exe -javaagent:D:\Installations\opentelemetry-javaagent.jar -Dotel.resource.attributes=service.name=student-service -Dotel.metrics.exporter=none -Dfile.encoding=UTF-8 -XX:+ShowCodeDetailsInExceptionMessages)
+     -> process.executable.path: STRING(D:\Installations\java\jdk17.0.2;bin;java.exe)
+     -> process.pid: INT(16948)
+     -> process.runtime.description: STRING(Oracle Corporation Java HotSpot(TM) 64-Bit Server VM 17.0.2+8-LTS-86)
+     -> process.runtime.name: STRING(Java(TM) SE Runtime Environment)
+     -> process.runtime.version: STRING(17.0.2+8-LTS-86)
+     -> service.name: STRING(student-service)
+     -> telemetry.auto.version: STRING(1.15.0)
+     -> telemetry.sdk.language: STRING(java)
+     -> telemetry.sdk.name: STRING(opentelemetry)
+     -> telemetry.sdk.version: STRING(1.15.0)
+ScopeSpans #0
+ScopeSpans SchemaURL:
+InstrumentationScope
+Span #0
+    Trace ID       : b5c702f5ad2d2424fb58ce3745fda5ff
+    Parent ID      : 8b14130ad07e7926
+    ID             : 0b6d15a75340fbe0
+    Name           : /student-school-details/{schoolname}
+    Kind           : SPAN_KIND_SERVER
+    Start time     : 2022-07-28 16:48:38.8220994 +0000 UTC
+    End time       : 2022-07-28 16:48:39.548036701 +0000 UTC
+    Status code    : STATUS_CODE_UNSET
+    Status message :
+Attributes:
+     -> net.peer.port: INT(63908)
+     -> http.scheme: STRING(http)
+     -> http.method: STRING(GET)
+     -> http.route: STRING(/student-school-details/{schoolname})
+     -> http.user_agent: STRING(Java/17.0.2)
+     -> http.host: STRING(localhost:9000)
+     -> http.status_code: INT(200)
+     -> net.peer.ip: STRING(127.0.0.1)
+     -> thread.name: STRING(http-nio-9000-exec-9)
+     -> thread.id: INT(31)
+     -> net.transport: STRING(ip_tcp)
+     -> http.flavor: STRING(1.1)
+     -> http.target: STRING(/student-school-details/abcschool)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

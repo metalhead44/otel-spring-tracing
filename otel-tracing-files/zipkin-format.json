@@ -1,0 +1,185 @@
+[
+  {
+    "traceId": "cd05f06d16e41df5f295bb1ef0d8fbb8",
+    "parentId": "7bcf46709f182e37",
+    "id": "86b62e51f12ab4f1",
+    "name": "studentservicecontroller.getstudents",
+    "timestamp": 1659021012332556,
+    "duration": 244661,
+    "localEndpoint": {
+      "serviceName": "student-service"
+    },
+    "tags": {
+      "host.arch": "amd64",
+      "host.name": "DESKTOP-9OJQPJ2",
+      "os.description": "Windows 10 10.0",
+      "os.type": "windows",
+      "process.command_line": "D:\\Installations\\java\\jdk17.0.2;bin;java.exe -javaagent:D:\\Installations\\opentelemetry-javaagent.jar -Dotel.resource.attributes=service.name=student-service -Dotel.metrics.exporter=none -Dfile.encoding=UTF-8 -XX:+ShowCodeDetailsInExceptionMessages",
+      "process.executable.path": "D:\\Installations\\java\\jdk17.0.2;bin;java.exe",
+      "process.pid": "16948",
+      "process.runtime.description": "Oracle Corporation Java HotSpot(TM) 64-Bit Server VM 17.0.2+8-LTS-86",
+      "process.runtime.name": "Java(TM) SE Runtime Environment",
+      "process.runtime.version": "17.0.2+8-LTS-86",
+      "span.kind": "internal",
+      "telemetry.auto.version": "1.15.0",
+      "telemetry.sdk.language": "java",
+      "telemetry.sdk.name": "opentelemetry",
+      "telemetry.sdk.version": "1.15.0",
+      "thread.id": "26",
+      "thread.name": "http-nio-9000-exec-4"
+    }
+  },
+  {
+    "traceId": "cd05f06d16e41df5f295bb1ef0d8fbb8",
+    "parentId": "c4b7d7e7136b4cd8",
+    "id": "7bcf46709f182e37",
+    "kind": "SERVER",
+    "name": "/student-school-details/{schoolname}",
+    "timestamp": 1659021012330673,
+    "duration": 257719,
+    "localEndpoint": {
+      "serviceName": "student-service"
+    },
+    "remoteEndpoint": {
+      "ipv4": "127.0.0.1",
+      "port": 57286
+    },
+    "tags": {
+      "host.arch": "amd64",
+      "host.name": "DESKTOP-9OJQPJ2",
+      "http.flavor": "1.1",
+      "http.host": "localhost:9000",
+      "http.method": "GET",
+      "http.route": "/student-school-details/{schoolname}",
+      "http.scheme": "http",
+      "http.status_code": "200",
+      "http.target": "/student-school-details/abcschool",
+      "http.user_agent": "Java/17.0.2",
+      "net.transport": "ip_tcp",
+      "os.description": "Windows 10 10.0",
+      "os.type": "windows",
+      "process.command_line": "D:\\Installations\\java\\jdk17.0.2;bin;java.exe -javaagent:D:\\Installations\\opentelemetry-javaagent.jar -Dotel.resource.attributes=service.name=student-service -Dotel.metrics.exporter=none -Dfile.encoding=UTF-8 -XX:+ShowCodeDetailsInExceptionMessages",
+      "process.executable.path": "D:\\Installations\\java\\jdk17.0.2;bin;java.exe",
+      "process.pid": "16948",
+      "process.runtime.description": "Oracle Corporation Java HotSpot(TM) 64-Bit Server VM 17.0.2+8-LTS-86",
+      "process.runtime.name": "Java(TM) SE Runtime Environment",
+      "process.runtime.version": "17.0.2+8-LTS-86",
+      "telemetry.auto.version": "1.15.0",
+      "telemetry.sdk.language": "java",
+      "telemetry.sdk.name": "opentelemetry",
+      "telemetry.sdk.version": "1.15.0",
+      "thread.id": "26",
+      "thread.name": "http-nio-9000-exec-4"
+    }
+  },
+  {
+    "traceId": "cd05f06d16e41df5f295bb1ef0d8fbb8",
+    "parentId": "30de93d077fe86df",
+    "id": "afc9cb155d235a9c",
+    "name": "schoolservicecontroller.getstudents",
+    "timestamp": 1659021012141982,
+    "duration": 444053,
+    "localEndpoint": {
+      "serviceName": "school-service"
+    },
+    "tags": {
+      "SchoolName": "abcschool",
+      "host.arch": "amd64",
+      "host.name": "DESKTOP-9OJQPJ2",
+      "os.description": "Windows 10 10.0",
+      "os.type": "windows",
+      "process.command_line": "D:\\Installations\\java\\jdk17.0.2;bin;java.exe -javaagent:D:\\Installations\\opentelemetry-javaagent.jar -Dotel.resource.attributes=service.name=school-service -Dotel.metrics.exporter=none -Dfile.encoding=UTF-8 -XX:+ShowCodeDetailsInExceptionMessages",
+      "process.executable.path": "D:\\Installations\\java\\jdk17.0.2;bin;java.exe",
+      "process.pid": "11224",
+      "process.runtime.description": "Oracle Corporation Java HotSpot(TM) 64-Bit Server VM 17.0.2+8-LTS-86",
+      "process.runtime.name": "Java(TM) SE Runtime Environment",
+      "process.runtime.version": "17.0.2+8-LTS-86",
+      "span.kind": "internal",
+      "telemetry.auto.version": "1.15.0",
+      "telemetry.sdk.language": "java",
+      "telemetry.sdk.name": "opentelemetry",
+      "telemetry.sdk.version": "1.15.0",
+      "thread.id": "26",
+      "thread.name": "http-nio-9001-exec-4"
+    }
+  },
+  {
+    "traceId": "cd05f06d16e41df5f295bb1ef0d8fbb8",
+    "id": "30de93d077fe86df",
+    "kind": "SERVER",
+    "name": "/school-details/{schoolname}",
+    "timestamp": 1659021012062819,
+    "duration": 523744,
+    "localEndpoint": {
+      "serviceName": "school-service"
+    },
+    "remoteEndpoint": {
+      "ipv6": "::1",
+      "port": 57284
+    },
+    "tags": {
+      "host.arch": "amd64",
+      "host.name": "DESKTOP-9OJQPJ2",
+      "http.flavor": "1.1",
+      "http.host": "localhost:9001",
+      "http.method": "GET",
+      "http.response_content_length": "124",
+      "http.route": "/school-details/{schoolname}",
+      "http.scheme": "http",
+      "http.status_code": "200",
+      "http.target": "/school-details/abcschool",
+      "http.user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36",
+      "net.transport": "ip_tcp",
+      "os.description": "Windows 10 10.0",
+      "os.type": "windows",
+      "process.command_line": "D:\\Installations\\java\\jdk17.0.2;bin;java.exe -javaagent:D:\\Installations\\opentelemetry-javaagent.jar -Dotel.resource.attributes=service.name=school-service -Dotel.metrics.exporter=none -Dfile.encoding=UTF-8 -XX:+ShowCodeDetailsInExceptionMessages",
+      "process.executable.path": "D:\\Installations\\java\\jdk17.0.2;bin;java.exe",
+      "process.pid": "11224",
+      "process.runtime.description": "Oracle Corporation Java HotSpot(TM) 64-Bit Server VM 17.0.2+8-LTS-86",
+      "process.runtime.name": "Java(TM) SE Runtime Environment",
+      "process.runtime.version": "17.0.2+8-LTS-86",
+      "telemetry.auto.version": "1.15.0",
+      "telemetry.sdk.language": "java",
+      "telemetry.sdk.name": "opentelemetry",
+      "telemetry.sdk.version": "1.15.0",
+      "thread.id": "26",
+      "thread.name": "http-nio-9001-exec-4"
+    }
+  },
+  {
+    "traceId": "cd05f06d16e41df5f295bb1ef0d8fbb8",
+    "parentId": "afc9cb155d235a9c",
+    "id": "c4b7d7e7136b4cd8",
+    "kind": "CLIENT",
+    "name": "http get",
+    "timestamp": 1659021012324265,
+    "duration": 252069,
+    "localEndpoint": {
+      "serviceName": "school-service"
+    },
+    "tags": {
+      "host.arch": "amd64",
+      "host.name": "DESKTOP-9OJQPJ2",
+      "http.flavor": "1.1",
+      "http.method": "GET",
+      "http.status_code": "200",
+      "http.url": "http://localhost:9000/student-school-details/abcschool",
+      "net.peer.name": "localhost",
+      "net.transport": "ip_tcp",
+      "os.description": "Windows 10 10.0",
+      "os.type": "windows",
+      "process.command_line": "D:\\Installations\\java\\jdk17.0.2;bin;java.exe -javaagent:D:\\Installations\\opentelemetry-javaagent.jar -Dotel.resource.attributes=service.name=school-service -Dotel.metrics.exporter=none -Dfile.encoding=UTF-8 -XX:+ShowCodeDetailsInExceptionMessages",
+      "process.executable.path": "D:\\Installations\\java\\jdk17.0.2;bin;java.exe",
+      "process.pid": "11224",
+      "process.runtime.description": "Oracle Corporation Java HotSpot(TM) 64-Bit Server VM 17.0.2+8-LTS-86",
+      "process.runtime.name": "Java(TM) SE Runtime Environment",
+      "process.runtime.version": "17.0.2+8-LTS-86",
+      "telemetry.auto.version": "1.15.0",
+      "telemetry.sdk.language": "java",
+      "telemetry.sdk.name": "opentelemetry",
+      "telemetry.sdk.version": "1.15.0",
+      "thread.id": "26",
+      "thread.name": "http-nio-9001-exec-4"
+    }
+  }
+]
