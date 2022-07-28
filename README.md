@@ -17,7 +17,7 @@ Run with following VM arguments
 
 java -DSTORAGE_TYPE=elasticsearch -DES_HOSTS=http://127.0.0.1:9200 -jar D:/Installations/zipkin.jar
 
-#exporting traces to http configuration
+# exporting traces to http configuration
 -javaagent:D:\Installations\opentelemetry-javaagent.jar 
 -Dotel.exporter.otlp.protocol=http/protobuf
 -Dotel.exporter.otlp.traces.protocol=http/protobuf
